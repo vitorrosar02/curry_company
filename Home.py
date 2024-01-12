@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 
-image = Image.open('imagens/logo.jpg')
+image = Image.open('logo.jpg')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
