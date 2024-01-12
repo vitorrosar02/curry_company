@@ -129,7 +129,7 @@ def slower_delivery(df1):
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Import dataset
-df = pd.read_csv('../dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 # Limpando o dataset
 df1 = clean_code(df)
